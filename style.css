@@ -7,32 +7,45 @@
 
 body{
     height: 100vh;
-    background-color: #111;
+    background-color: #EDEEF0;
     display: flex;
     justify-content: center;
 }
 
 h1{
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 3rem;
     margin: 1rem 0 3rem;
 }
 
 i{
-    color: #fff;
+    color: rgb(0, 0, 0);
+    margin: 5px;
 }
 
 input{
-    border: 1px solid;
+    border: 1.5px solid;
     border-radius: 25px;
-    width: 200px;
     padding: 10px;
     outline: none;
 }
 
 input:disabled{
-    background-color: #111;
-    color: #fff;
+    background-color: #EDEEF0;
+    color: rgb(0, 0, 0);
+    border: none;
 }
 
+input[type="checkbox"] {
+    position: relative;
+    margin: 5px;
+}
 
+.done {
+    text-decoration: line-through;
+    color: rgb(71, 71, 71);
+}
+
+#todo-list {
+    margin: auto;
+}
