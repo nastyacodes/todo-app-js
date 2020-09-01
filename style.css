@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 3rem;
+    margin: 1rem 0 3rem;
+}
+
+i{
+    color: #fff;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 200px;
+    padding: 10px;
+    outline: none;
+}
+
+input:disabled{
+    background-color: #111;
+    color: #fff;
+}
+
+
