@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    margin: 1rem 0 3rem;
+}
+
+.todos {
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #EDEEF0;
+}
+
+.todos__field {
+    display: block;
+    margin: 0 auto;
+}
+
+i{
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:disabled{
+    background-color: #EDEEF0;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    margin: 5px;
+}
+
+.todos__btn {
+    background: transparent;
+    border: none;
+}
+
+.todos__btn:hover,
+.todos__item:active {
+    background: transparent;
+    outline: none;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgb(71, 71, 71);
+}
